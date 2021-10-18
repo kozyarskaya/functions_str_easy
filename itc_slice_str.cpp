@@ -8,8 +8,11 @@ string itc_slice_str(string str, int start, int finish){
             new_str += str[i];
         }
     }
-    if (start >= len){
+   else if (start >= len){
         return str;
+    }
+    else if (start == (len - 1)){
+        return new_str += str[len - 1];
     }
     else{
         for (long long i = start; i <= finish; i++){
@@ -17,4 +20,5 @@ string itc_slice_str(string str, int start, int finish){
         }
     }
     return new_str;
+return "-1";
 }
