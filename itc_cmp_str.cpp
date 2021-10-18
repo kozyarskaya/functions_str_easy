@@ -1,6 +1,6 @@
 #include "str_easy.h"
 
-string itc_cmd_str(string str1, string str2, int num){
+string itc_cmp_str(string str1, string str2, int num){
     string new_str = "";
     for (int i = 0; i < num - 1; i++){
         new_str += str1[i];
