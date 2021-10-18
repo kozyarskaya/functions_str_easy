@@ -8,4 +8,5 @@ string itc_even_place(string str){
         i += 2;
     }
     return new_str;
+ return -1;
 }
