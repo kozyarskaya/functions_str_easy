@@ -5,7 +5,7 @@ bool itc_equal_reverse(string str){
     if (new_str == str){
         return true;
     }
-    if (new_str != str){
+    else{
         return false;
     }
 }
