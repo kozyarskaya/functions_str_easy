@@ -26,7 +26,7 @@ string itc_slice_str(string str, int start, int finish);
 
 bool itc_equal_reverse(string str);
 
-string itc_cmd_str(string str1, string str2, int num);
+string itc_cmp_str(string str1, string str2, int num);
 
 int itc_find_str(string str1, string str2);
 
