@@ -14,9 +14,10 @@ double itc_percent_lower_uppercase(string str){
         i++;
     }
     if (kol_lower == 0){
-        kol_lower = 1.0;
+        percent = 1.0;
     }
-    percent = kol_upper / kol_lower;
+    else
+        percent = kol_upper / kol_lower;
     return percent;
     return -1;
 }
