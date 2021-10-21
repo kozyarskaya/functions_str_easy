@@ -14,7 +14,7 @@ double itc_percent_lower_uppercase(string str){
         i++;
     }
     if (kol_lower == 0 || kol_upper == 0){
-        percent = 1.0;
+        percent = -1.0;
     }
     else
         percent = kol_upper / kol_lower;
